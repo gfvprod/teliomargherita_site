@@ -1,0 +1,8 @@
+{
+	"name": "telio-margherita-website",
+	"version": "1.0.0",
+	"description": "website for full portfolio and contact",
+	"scripts": {
+		"build": "npm run build"
+	}
+}

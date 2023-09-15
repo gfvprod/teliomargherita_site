@@ -1,0 +1,276 @@
+body{
+				font-family: 'Montserrat', sans-serif;
+				text-align: center;
+				margin: 0;
+				padding-left: 30px;
+				padding-right: 30px;
+				/*background-color: #ecf7ff;*/
+				display: grid;
+				justify-content: center;
+				overflow-x: auto;
+
+
+				/*background: rgb(49,49,255);
+				background: linear-gradient(0deg, rgba(49,49,255,1) 0%, rgba(202,202,245,1) 19%, rgba(255,255,255,1) 100%);*/
+
+				
+				background-image: url('bg_gradientblue.png');
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				
+
+				/*
+				background: rgb(49,49,255);
+				background: linear-gradient(0deg, rgba(49,49,255,1) 0%, rgba(202,202,245,1) 46%, rgba(228,228,250,1) 66%, rgba(255,255,255,1) 100%);
+				*/
+			}
+			.content-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            justify-content: space-between;
+       		}
+
+        	.content-section {
+            flex: 1;
+            padding: 20px;
+            border: none;
+            box-sizing: border-box;
+        }
+        #youtube {
+        	flex: 2;
+        }
+        #spotify,
+        #soundcloud {
+        	flex: 1;
+        }
+        	.clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+			.container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				max-width: 800px;
+				margin: 0 auto;
+			}
+			.container img {
+				width: 100%;
+				max-width: 500px;
+				min-width: 100px;
+				height: auto;
+				margin-bottom: 20px;
+			}
+			.video-container {
+				width: 100%;
+				max-width: 900px;
+				height: auto;
+			}
+			.video-container-portfolio{
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-start;
+				width: 100%;
+				max-width: 900px;
+				height: auto;
+			}
+			.video-container iframe {
+				width: 100%;
+				max-width: 900px;
+				min-width: 100px;
+				margin-bottom: 22px;
+			}
+			.container p {
+				max-width: 800px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.body-list li {
+				line-height: 1.5;
+			}
+			.main-content {
+				text-align: left;
+				max-width: 800px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.sentence {
+  			display: block;
+  			margin-bottom: 0.1em;
+			}
+			.about-me-container {
+				display: flex;
+				justify-content: space-between;
+				padding: 20px;
+				padding-bottom: 0px;
+				box-sizing: border-box;
+				margin-bottom: 0px;
+				margin-top: -35px;
+			}
+			.about-me-image {
+				flex: 0 0 40%;
+				padding-left: 20px;
+				box-sizing: border-box;
+			}
+			.about-me-image img {
+				width: 100%;
+				max-width: 500px;
+				height: auto;
+				margin-bottom: 20px;
+			}
+			.about-me-image a {
+				display: block;
+				margin-top: 10px;
+			}
+			.about-me-content {
+				flex: 0 0 60%;
+				padding-right: 20px;
+				text-align: left;
+				box-sizing: border-box;
+			}
+			.homepage-container {
+				display: flex;
+				justify-content: space-between;
+				padding: 20px;
+				padding-bottom: 0px;
+				box-sizing: border-box;
+				margin-bottom: 0px;
+				margin-top: -35px;
+			}
+			.homepage-image {
+				flex: 0 0 40%;
+				padding-left: 20px;
+				box-sizing: border-box;
+			}
+			.homepage-image img {
+				width: 100%;
+				max-width: 500px;
+				height: auto;
+				margin-bottom: 20px;
+			}
+			.homepage-image a {
+				display: block;
+				margin-top: 10px;
+			}
+			.homepage-content {
+				flex: 0 0 60%;
+				padding-right: 20px;
+				text-align: left;
+				box-sizing: border-box;
+			}
+			.body-list {
+ 			list-style-position: inside;
+ 			text-align: left;
+			}
+			.center-aligned {
+				margin-top: -60px;
+				margin-bottom: 20px;
+			}
+			.portfolio-section {
+				display: flex;
+			    justify-content: center;
+			    align-items: flex-start;
+			    gap: 20px; /* Adjust the spacing between the video and description */
+			    margin-top: 40px; /* Add top margin for spacing */
+
+			}
+			.portfolio-description {
+				flex: 0 0 60%;
+				width: 40%;
+				padding-left: 20px;
+				padding-right: 20px;
+				box-sizing: border-box;
+				background-color: white; /* Sets the background color to white */
+    			padding: 10px; /* Adds some space between the content and the frame */
+			    border-radius: 8px; /* Adds those lovely rounded corners */
+			    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* A subtle shadow to make it pop */
+			    margin-top: 10px; /* Provides a bit of space from the video above */-->
+			}
+			.portfolio-container {
+				display: flex;
+				justify-content: space-between;
+				padding: 20px;
+				padding-bottom: 0px;
+				box-sizing: border-box;
+				margin-bottom: 0px;
+				margin-top: -35px;
+			}
+			.content-section {
+				justify-content: center;
+			}
+			h1 {
+				margin-bottom: 5px;
+				margin-top: 20px;
+			}
+			h2 {
+				margin: auto;
+			}
+			h3 {
+				margin-top: 45px;
+			}
+			nav ul{
+				text-align: center;
+				padding-left: 0;
+				display: flex;
+			    justify-content: center;
+			    align-items: center;
+			    list-style-type: none;
+			    padding: 0;
+			    margin: 0 10px;
+			    margin-bottom: -40px;
+			}
+			p {
+					margin-left: auto;
+					margin-right: auto;
+					line-height: 1.5;
+				}
+			img {
+					max-width: 60%;
+					height: auto;
+				}
+			nav ul li {
+				display: inline;
+				margin-right: 10px;
+			}
+			li:last-child{
+				margin-right: 0;
+			}
+			nav {text-align: center;
+			margin: 20px
+			}
+			nav a {
+				margin: 0 10px;
+            text-decoration: none;
+            color: #0000ef;
+        	}
+        	iframe {
+        		margin-bottom: 10px;
+        		margin-top: 10px;
+        	}
+
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    .portfolio-section {
+    	flex-direction: column;/* Styles for screens up to 600px wide */
+    	gap: 20px;
+    /* Adjust element sizes, margins, paddings, etc. here */
+}
+	.portfolio-description {
+		width: 100%;
+	}
+	.content-container {
+		flex-direction: column;
+		gap: 20px;
+	}
+	.content-section {
+		width: 100%;
+	}
+	.youtube-container iframe {
+		100%
+	}
